@@ -1,0 +1,169 @@
+/* 
+    Author: Lopa chowdhury;
+    Theme:  Food Order website;
+
+    
+*/
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper
+{
+	
+	padding: 1%;
+	width: 80%;
+	 margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+
+.tbl-full{
+	width: 100%;
+}
+.tbl-30{
+	width: 30%;
+}
+table tr th{
+	border-bottom: 1px solid black;
+	padding: 4%;
+	text-align: left;
+}
+table tr td{
+	padding: 1%;
+}
+.btn-primary{
+ background-color: #1e90ff;
+ padding: 1%;
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+}
+.btn-primary:hover{
+	background-color: #3742fa;
+}
+.btn-secondary{
+ background-color: #7bed9f;
+ padding: 1%;
+ color: black;
+ text-decoration: none;
+ font-weight: bold;
+}
+.btn-secondary:hover{
+	background-color: #23d573;
+}
+.btn-danger{
+ background-color: #ff6b81;
+ padding: 1%;
+ color: white;
+ text-decoration: none;
+ font-weight: bold;
+}
+.btn-danger:hover{
+	background-color: #ff4757;
+}
+.success{
+	color:#ff4757;
+
+}
+.error{
+	color:#8B0000 ;
+}
+/*css for menu*/
+.menu{
+
+	border-bottom: 1px solid grey;
+
+}
+
+
+.menu ul{
+	list-style-type: none;
+}
+.menu ul li{
+	display: inline;
+	padding: 1%
+}
+.menu ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	color:#ff6b81;
+}
+.menu ul li a:hover{
+	color:  #ff4757;
+}
+/*css for main*/
+.main-contant {
+	
+	background-color: #C0C0C0;
+	padding: 2% 0;
+}
+.col-4{
+	width: 10%;
+	background-color: white;
+	margin: 1%;
+	padding: 2%;
+	float: left;
+
+}
+
+
+/*css for footer*/
+.footer{
+	background-color: #ff4757;
+	color: white ;
+}
+/*css for login*/
+.log{
+	
+	background:url(login4.jpg) no-repeat;
+	 background-size: cover;
+
+
+}
+.login{
+	border: 5px solid rgb(7, 75, 221);
+	
+	width :20%;
+	margin: 10% auto;
+	padding: 2%;
+	color: #fff;
+
+}
+.login h1
+{
+	font-size: 30px;
+	
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+.login p 
+{
+	font-size: 20px;
+	margin: 15px 0;
+
+}
+
+.login input{
+	font-size: 16px;
+	width: 90%;
+	padding: 12px 9px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+}
+.login button{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	border: 0;
+} 
